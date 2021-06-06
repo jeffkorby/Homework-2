@@ -1,0 +1,21 @@
+
+
+
+
+/* Mobile */
+@media screen and (min-width: 620px){
+
+}
+
+/* Tablets */
+@media screen and (min-width: 960px){
+
+  body{
+    font-size: 18px;
+  }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px){
+}

@@ -1,2 +1,2 @@
-# Portfolio Page
-Repository for my Portfolio page.
+# Homework-2
+Repository for Bootcamp 2nd homework assignment
