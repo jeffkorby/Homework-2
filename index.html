@@ -1,81 +1,114 @@
 <!DOCTYPE html lang="en-us">
 <html>
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name= "viewport" content= "width=device width, initial-scale=1.0">
-        <link rel="stylesheet" href="Assets\reset.css" />
-        <link rel="stylesheet" href="Assets\style.css" />
-        <title>Jeff Korby's Portfolio</title>
-    </head>
 
-    <body>
-        <header>
-            <h1 class= title>Jeff Korby</h1>
-            <h3>Your friendly neighborhood supercoder</h3>
-            <nav class="Nav-bar">  
-                <ul>
-                    <li>
-                        <a href="#About Me" class="about, button"> About Me</a>
-                        <a href="#My Work" class= "button">My Work</a>
-                        <a href="#Contact" class="button">Contact</a>  
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets\reset.css" />
+    <link rel="stylesheet" href="Assets\style.css" />
+    <title>Jeff Korby's Portfolio</title>
+</head>
 
-        <section id="About Me" class="row justify-center">
-            <h3>About Me</h3>
-            <div class="About Me">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi dicta exercitationem nulla facilis. In consequuntur dignissimos distinctio dolor corporis, incidunt optio, eum nihil iusto, eius odio neque vero veritatis?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil vel commodi sed. Non at quibusdam enim. Nesciunt ad blanditiis reprehenderit, reiciendis rerum cum dolorem, earum rem, ullam assumenda accusantium repudiandae.
-                </p>
+<body>
+    <header>
+        <h1 class=title>JEFF KORBY</h1>
+        <h3 class=subtitle>Your friendly neighborhood supercoder</h3>
+    </header>
+    <nav class="links">
+        <ul>
+            <li>
+                <a href="#About Me" class="about">About Me</a>
+                <a href="#My Work" class="myWork">My Work</a>
+                <a href="#Contact" class="contactMe">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr class="rounded">
+
+    <main id="aboutMe">
+        <aside>
+            <h3 class="asideHeader">About Me</h3>
+        </aside>
+        <p class="about-me">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi dicta exercitationem nulla
+            facilis. In consequuntur dignissimos distinctio dolor corporis, incidunt optio, eum nihil iusto, eius
+            odio neque vero veritatis?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil vel commodi sed. Non at quibusdam enim.
+            Nesciunt ad blanditiis reprehenderit, reiciendis rerum cum dolorem, earum rem, ullam assumenda
+            accusantium repudiandae.
+        </p>
+    </main>
+
+    <hr class="rounded">
+
+    <main class="portfolioCards">
+        <aside class="portfolioAside">
+            <h3 class= "asideHeader">My Work Portfolio</h3>
+        </aside>
+        
+        <section class="cardMain">
+            <div class="block">
+                <figure>
+                    <a href="#"></a>
+                    <h4>Monkey</h4>
+                    <img class="mainImg" src="Assets\AdobeStock_419215048.jpeg" alt="Monkey">
+                </figure>
             </div>
         </section>
-
-        <main id="My Work" class="row justify-center">
-            <h3>My Work Portfolio</h3>
-            <div class= "card column">
-                <figure class="card workCard">            
-                    <a href="#"></a>
-                        <h4>Monkey</h4>
-                        <img src="Assets\AdobeStock_419215048.jpeg" alt= "Monkey" style="height: 15%;width:10%">              
-                </figure>
-                <figure class="card workCard"> 
+        <content class= "workCard">
+            <div class="card">                         
+                <figure>
                     <a href="#"></a>
                     <h4>Cub</h4>
-                    <img src="Assets\AdobeStock_420572605.jpeg" alt= "Cub" style="height: 15%;width:10%">
-                </figure>
-                <figure class="card workCard"> 
+                    <img class="otherImgs" src="Assets\AdobeStock_420572605.jpeg" alt="Cub">
+                </figure> 
+            </div>
+
+            <div class="card">
+                <figure>
                     <a href="#"></a>
                     <h4>Flower</h4>
-                    <img src="Assets\AdobeStock_418954079.jpeg" alt= "Flower" style="height: 15%;width:10%">
+                    <img class="otherImgs" src="Assets\AdobeStock_418954079.jpeg" alt="Flower">
                 </figure>
-                <figure class="card workCard"> 
+            </div>
+        
+            <div class="card">
+                <figure>
                     <a href="#"></a>
                     <h4>Lava</h4>
-                    <img src="Assets\AdobeStock_423016489.jpeg" alt= "Lava" style="height: 15%;width:10%">
+                    <img class="otherImgs" src="Assets\AdobeStock_423016489.jpeg" alt="Lava">
                 </figure>
-                <figure class="card workCard">            
+            </div>
+
+            <div class="card">
+                <figure>
                     <a href="#"></a>
-                        <h4>Eagle</h4>
-                        <img src="Assets\AdobeStock_310601708.jpeg" alt= "Eagle" style="height: 15%;width:10%">              
+                    <h4>Eagle</h4>
+                    <img class="otherImgs" src="Assets\AdobeStock_310601708.jpeg" alt="Eagle">
                 </figure>
             </div>
-        </main>
+        </content>
+        
+    </main>
 
-        <footer>
-            <div class= "contact">
-                <ul>
-                    <li>
-                        <h3>Phone: <a href="tel:+12487670453">248-767-0453</a></h3>
-                        <h3>Email: <a href="korbyjef@gmail.com">korbyjef@gmail.com</a></h3>
-                        <h3>Github Repository: <a href="https://github.com/jeffkorby" target="_blank">Github</a></h3>            
-                    </li>
-                </ul>
-            </div>
-        </footer>
+    <hr class="rounded">
 
-    </body>
+    <footer>
+        <aside>
+            <h3 class= "asideHeader">Contact Me</h3>
+        </aside>
+        <div class="contact">
+            <ul>
+                <li>
+                    <h3>Phone: <a href="tel:+12487670453">248-767-0453</a></h3>
+                    <h3>Email: <a href="korbyjef@gmail.com">korbyjef@gmail.com</a></h3>
+                    <h3>Github Repository: <a href="https://github.com/jeffkorby" target="_blank">Github</a></h3>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
 </html>
