@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
 html {
   height: 100%;
@@ -24,3 +25,31 @@ ul, li {
   list-style: none;
 } */
 
+=======
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+​h1, h2, h3, h4
+ {
+  font-size: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+>>>>>>> 527e78ea1f578255c12cd239025cc5682b90270f
