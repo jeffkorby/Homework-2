@@ -21,18 +21,18 @@ main {
 }
 
 header {
-  width: 65%;
+  width: 100%;
   display: inline-block;
   color: rgb(43, 43, 124);
   box-sizing: border-box;
+  background-color: lightsteelblue;
 }
 
 nav {
-  float: right;
-  display: inline;
   padding: 10px;
   padding-right: 10%;
   text-align: center ;
+  background-color: lightsteelblue;
 }
 
 .rounded {
@@ -42,14 +42,15 @@ nav {
   background-color: aquamarine;
 }
 
-.about-me {
-  padding: 10px;
-  width:auto;
-  float: right;
+p {
+  background-color: crimson;
+  border-style: none;
+  background-color:cover;
 }
 
-p {
-  width:85%;
+.about-me {
+  background-color: darkkhaki;
+  border-style: none;
 }
 
 section {
@@ -67,27 +68,16 @@ aside {
   border-right-width: thick;
 }
 
-/* .portfolioAside {
-  padding: 5px
-} */
-
-/* .portfolioSection {
-  display: inline-flex;
-} */
-
-.asideHeader {
-  padding: 5px;
+.cardMain {
+  background-color: cornsilk;
 }
-
-/* section.cardMain {
-  width:100%;
-} */
 
 .mainImg {
   display: block;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit:scale-down;
+  
 }
 
 .block {
@@ -96,54 +86,57 @@ aside {
 
 .otherImgs {
   object-fit: cover;
-  flex-direction: row;
-  width: 35%;
+  flex-direction: column;
+  width: 50%;
   height: auto;
   flex-wrap: wrap;
   margin: none;
   padding: 10px;
   border: thin;
+  display: flex;
 }
 
 h4 {
   display: inline;
 }
 
-/* figure {
+div.workCard {
   display: flex;
-  margin: none;
-  width: 40%;
-} */
-
-.card {
-  display: inline;
-  width: 100%;
-}
-
-section.workCard {
-  display: flex;
+  width: 50%;
   flex:100%;
   flex-direction: column;
   flex-wrap: wrap;
   width:100%;
   box-sizing: border-box;
+  margin: none;
 }
-
-/* img {
-  width:90%;
-  height: auto;
-} */
 
 footer {
   display: flex;
 }
 
 .contact {
-  display: block;
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   display: flex;
+  flex: 0 1 auto;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color:lightsteelblue
 }
 
 
@@ -158,7 +151,6 @@ li {
   }
 
   nav {
-    float: left;
     width: 100%;
     display: inline-block;
   }
@@ -170,12 +162,16 @@ li {
   }
 
   .asideHeader {
-    font-size: 70%;
+    font-size: 60%;
     padding: 5%;
   }
 
   aside {
     padding-right: 10px;
+  }
+
+  h3 {
+    font-size: 50%;
   }
 
 .contact {
@@ -186,7 +182,7 @@ li {
 /* Tablets/Laptops/Desktops */
 @media screen and (min-width: 960px){
   header {
-    width: 65%;
+    width: 100%;
   }
 
   .workCard {
